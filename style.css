@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Center header text */
+h1{
+  text-align: center;
+}
+/* Center image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center navigation */
+nav {
+  text-align: center;
+}
+
+/* img caption shrink font size and center */
+figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* all of the <a> tags in navbar padding of 10 px on their left and right sides*/
+/* Background color changed to grey*/
+nav a {
+  padding: 0 10px;
+  background-color: rgb(196, 189, 189);
+  margin: 0 auto;
+}
+
+/* center paragraph within featered-property a with of 800px and center*/
+/* give all our <p> within #featured-property a hard width of 800px and center the text there*/
+/* keep a little vertical space around the <p>s */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 8px auto;
+}
+
+/* Make #details section horizonal */
+/* The details section could go nicely as a footer instead of a vertical list*/
+/* To do this make each of the <div>s float to the left*/
+#details div{
+  float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
+}
